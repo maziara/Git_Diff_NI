@@ -2,7 +2,8 @@
 Script to compare NI binary files
 
 #About
-This is a simple script to run appropriate comparator for NI files.
+Comparing NI's binary files are a pain. Specially if you have them checked in with Git.
+This is a simple script to run appropriate comparator for NI files and is intended to be used as External-Diff for Git.
 
 #Feautures
 * Autodetects and executes the comparator program based on file extensions as follow:
