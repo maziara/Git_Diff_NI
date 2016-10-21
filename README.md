@@ -8,7 +8,7 @@ This is a simple script to run appropriate comparator for NI files.
 * Autodetects and executes the comparator program based on file extensions as follow:
   * vi    (LabView)       -> Using LVCompare.exe
   * seq   (TestStand)     -> Using FileDifferLauncher.exe
-* Exists silently if the file extension is not supported.
+* Exits silently if the file extension is not supported.
 
 #Setup
 1. Copy the "NICompare.sh" to a path accessible to git.
